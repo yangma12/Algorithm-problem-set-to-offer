@@ -7,7 +7,7 @@ class Solution05 {
 public:
     string replaceSpace(string s) {
         int pos = s.find(' ');
-        while(pos != std::string::npos){
+        while(pos != -1){
             //pos存在就替换
             s.erase(pos,1);
             s.insert(pos,"%20");
