@@ -19,11 +19,11 @@ public:
 };
 
 
-int main(){
-    cout << "start" << endl;
-    string s("We are happy.");
-    Solution05 sol;
-    string r = sol.replaceSpace(s);
-    cout << r << endl;
-    return 0;
-}
+// int main(){
+//     cout << "start" << endl;
+//     string s("We are happy.");
+//     Solution05 sol;
+//     string r = sol.replaceSpace(s);
+//     cout << r << endl;
+//     return 0;
+// }
